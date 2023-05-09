@@ -1,0 +1,24 @@
+
+.banner {
+  position: relative;
+  background-image: url("/landing/images/background.png");
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner p, .banner h1 {
+  color: white;
+}
+.banner .container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+  height: 30%;
+  justify-content: space-evenly;
+}
